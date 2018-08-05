@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+}
+
+.sidebar {
+  width: 40%;
+  padding: 10px;
+  background: #f0f0f0;
+}
+
+.sidebar > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar + div {
+  padding: 10px;
+  flex: 1;
+}

@@ -1,0 +1,52 @@
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+.container {
+  position: relative;
+  height: 300px;
+}
+
+.fill,
+.content,
+.hsl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.content {
+  top: 40px;
+  text-align: center;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  height: 40px;
+  width: 100%;
+  display: flex;
+}
+
+.nav > li {
+  text-align: center;
+  flex: 1;
+  list-style: none;
+  padding: 10px;
+}
+
+.hsl {
+  color: white;
+  padding-top: 20px;
+  font-size: 30px;
+}
